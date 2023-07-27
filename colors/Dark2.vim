@@ -25,6 +25,7 @@ let g:colors_name = "Dark2"
 "hi LineNr -- no settings --
 "hi StatusLine -- no settings --
 hi Normal guifg=#f8f8ff guibg=#000000 guisp=#000000 gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
+hi SignColumn guifg=#f8f8ff guibg=NONE guisp=#000000 gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
 "hi CTagsImport -- no settings --
 "hi CTagsGlobalVariable -- no settings --
 "hi SpellRare -- no settings --
