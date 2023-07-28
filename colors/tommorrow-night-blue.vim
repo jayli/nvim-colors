@@ -9,7 +9,7 @@ let s:background = "002451"
 let s:background = "NONE"
 let s:selection = "003f8e"
 let s:line = "00346e"
-let s:line = "222222"
+let s:line = "111222"
 let s:comment = "7285b7"
 let s:red = "ff9da4"
 let s:orange = "ffc58f"
@@ -257,8 +257,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	if version >= 700
 		call <SID>X("CursorLine", "", s:line, "none")
 		call <SID>X("CursorColumn", "", s:line, "none")
-		call <SID>X("PMenu", s:foreground, s:selection, "none")
-		call <SID>X("PMenuSel", s:foreground, s:selection, "reverse")
+		call <SID>X("PMenu", "cccccc", "1f1f1f", "none")
+		call <SID>X("PMenuSel", "ffffff", "04395e", "none")
+		call <SID>X("PMenuSbar", "", "1f1f1f", "none")
+		call <SID>X("PmenuThumb", "", "333333", "none")
 		call <SID>X("SignColumn", "", s:background, "none")
 	end
 	if version >= 703
