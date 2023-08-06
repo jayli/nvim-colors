@@ -146,10 +146,10 @@ hi WarningMsg term=NONE guifg=#fb8965 ctermfg=209 guibg=#3a4b5c ctermbg=235
 exe 'hi' 'WildMenu' 'term=NONE' 'guifg='.s:bg_gui 'ctermfg=233' 'guibg=#fedf81' 'ctermbg=222'
 hi cmakeArguments term=NONE guifg=#f0eaaa ctermfg=229
 hi cmakeOperators term=NONE guifg=#fd8489 ctermfg=210
-exe 'hi' 'DiffAdd' 'term=NONE' 'guibg=#5f8770' 'ctermbg=65' s:bold_attr
-exe 'hi' 'DiffChange' 'term=NONE' 'guibg='.s:darkgold_gui 'ctermbg=58' s:bold_attr
-exe 'hi' 'DiffDelete' 'term=NONE' 'guifg=#fffeeb' 'ctermfg='.s:fg_cterm 'guibg=#ab6560' 'ctermbg=167' s:bold_attr
-exe 'hi' 'DiffText' 'term=NONE' 'guibg='.s:bg_gui 'ctermbg=233'
+exe 'hi' 'DiffAdd' 'term=NONE' 'guibg=NONE' 'ctermbg=65' s:bold_attr
+exe 'hi' 'DiffChange' 'term=NONE' 'guibg=NONE' 'ctermbg=58' s:bold_attr
+exe 'hi' 'DiffDelete' 'term=NONE' 'guifg=NONE' 'ctermfg='.s:fg_cterm 'guibg=NONE' 'ctermbg=167' s:bold_attr
+exe 'hi' 'DiffText' 'term=NONE' 'guibg=NONE' 'ctermbg=233'
 hi diffAdded term=NONE guifg=#a9dd9d ctermfg=150
 hi diffFile term=NONE guifg=#f0eaaa ctermfg=229
 hi diffIndexLine term=NONE guifg=#fedf81 ctermfg=222
