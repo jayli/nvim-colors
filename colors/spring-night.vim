@@ -92,8 +92,10 @@ hi Operater term=NONE guifg=#f0aa8a ctermfg=216
 
 
 
-hi! PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
-hi! PMenuSel guibg=#c792ea guifg=#000000 ctermbg=176 gui=NONE cterm=NONE
+hi! Pmenu guifg=#d4d4d4 guibg=#252526
+hi! PmenuSel guifg=#ffffff guibg=#04395e
+hi! PmenuSbar guibg=#252526
+hi! PmenuThumb guibg=#474747
 
 
 hi PreProc term=NONE guifg=#f0aa8a ctermfg=216
