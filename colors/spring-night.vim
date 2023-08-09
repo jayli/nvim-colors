@@ -65,8 +65,8 @@ hi Conditional term=NONE guifg=#a8d2eb ctermfg=153
 hi Constant term=NONE guifg=#fd8489 ctermfg=210
 exe 'hi' 'Cursor' 'term=NONE' 'guifg='.s:bg_gui 'ctermfg=233' 'guibg=#fffeeb' 'ctermbg='.s:fg_cterm
 hi CursorColumn term=NONE guibg=#3a4b5c ctermbg=235
-hi CursorLine term=NONE guibg=#3a4b5c ctermbg=235 gui=NONE cterm=NONE
-hi CursorLineNr term=NONE guifg=#e7d5ff ctermfg=189 guibg=#536273 ctermbg=238
+hi CursorLine term=NONE guibg=#2d3b47 ctermbg=235 gui=NONE cterm=NONE
+hi CursorLineNr term=NONE guifg=#e7d5ff ctermfg=189 guibg=#2d3b47 ctermbg=238
 hi Define term=NONE guifg=#f0aa8a ctermfg=216
 hi Directory term=NONE guifg=#a9dd9d ctermfg=150
 hi EndOfBuffer term=NONE guifg=#536273 ctermfg=238
