@@ -225,10 +225,10 @@ exe 'hi' 'CleverFDirect' 'term=NONE' 'guifg='.s:bg_gui 'ctermfg=233' 'guibg=#fd8
 exe 'hi' 'DirvishArg' 'term=NONE' 'guifg=#f0eaaa' 'ctermfg=229' s:bold_attr
 exe 'hi' 'EasyMotionTarget' 'term=NONE' 'guifg=#fd8489' 'ctermfg=210' s:bold_attr
 exe 'hi' 'EasyMotionShade' 'term=NONE' 'guifg=#8d9eb2' 'ctermfg=103' 'guibg='.s:bg_gui 'ctermbg=233'
-hi GitGutterAdd term=NONE guifg=#a9dd9d ctermfg=150 guibg=#3a4b5c ctermbg=235
-hi GitGutterChange term=NONE guifg=#f0eaaa ctermfg=229 guibg=#3a4b5c ctermbg=235
-hi GitGutterChangeDelete term=NONE guifg=#fedf81 ctermfg=222 guibg=#3a4b5c ctermbg=235
-hi GitGutterDelete term=NONE guifg=#fd8489 ctermfg=210 guibg=#3a4b5c ctermbg=235
+hi GitGutterAdd term=NONE guifg=#a9dd9d ctermfg=150 guibg=NONE ctermbg=235
+hi GitGutterChange term=NONE guifg=#f0eaaa ctermfg=229 guibg=NONE ctermbg=235
+hi GitGutterChangeDelete term=NONE guifg=#fedf81 ctermfg=222 guibg=NONE ctermbg=235
+hi GitGutterDelete term=NONE guifg=#fd8489 ctermfg=210 guibg=NONE ctermbg=235
 hi HighlightedyankRegion term=NONE guibg=#3a4b5c ctermbg=235
 if s:gui_running
     exe 'hi' 'EasyMotionIncCursor' 'term=NONE' 'guifg='.s:bg_gui 'ctermfg=233' 'guibg=#fffeeb' 'ctermbg='.s:fg_cterm
