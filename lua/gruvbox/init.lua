@@ -33,7 +33,6 @@ function M.setup(config)
     config.italic = M.config.italic
   end
   M.config = vim.tbl_deep_extend("force", M.config, config or {})
-  M.config.palette_overrides.bright_green = '#8dc891'
   return M
 end
 
