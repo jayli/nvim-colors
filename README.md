@@ -30,4 +30,7 @@ vim.cmd.colorscheme("happy_hacking")
 
 ![](https://github.com/jayli/nvim-colors/assets/188244/1727bdc0-4994-430d-bed2-4c6573da816a)
 
+### `gruvbox`
+
+![](https://github.com/jayli/nvim-colors/assets/188244/ed2bc0f2-91a8-4cfc-b95c-34a08cdc2e61)
 
