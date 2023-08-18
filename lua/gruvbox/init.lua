@@ -65,7 +65,7 @@ M.load = function()
   vim.api.nvim_set_hl(0, 'GitSignsVirtLnum', { bg="NONE"})
   vim.api.nvim_set_hl(0, 'CursorLine', { bg="#33302d"})
   vim.api.nvim_set_hl(0, 'CursorLineNr', { bg="#33302d", fg="yellow"})
-
+  vim.api.nvim_set_hl(0, 'ErrorMsg', { bg="black", fg="red"})
 
   return M
 end
