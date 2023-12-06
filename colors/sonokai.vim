@@ -140,15 +140,15 @@ if s:configuration.transparent_background == 2
   call sonokai#highlight('StatusLineTermNC', s:palette.grey, s:palette.none)
   call sonokai#highlight('TabLine', s:palette.fg, s:palette.bg4)
   call sonokai#highlight('TabLineFill', s:palette.grey, s:palette.none)
-  call sonokai#highlight('TabLineSel', s:palette.bg0, s:palette.bg_red)
+  call sonokai#highlight('TabLineSel', s:palette.bg_red, s:palette.bg0)
 else
   call sonokai#highlight('StatusLine', s:palette.fg, s:palette.bg3)
   call sonokai#highlight('StatusLineTerm', s:palette.fg, s:palette.bg3)
   call sonokai#highlight('StatusLineNC', s:palette.grey, s:palette.bg1)
   call sonokai#highlight('StatusLineTermNC', s:palette.grey, s:palette.bg1)
-  call sonokai#highlight('TabLine', s:palette.fg, s:palette.bg4)
+  call sonokai#highlight('TabLine', s:palette.grey, s:palette.bg4)
   call sonokai#highlight('TabLineFill', s:palette.grey, s:palette.bg1)
-  call sonokai#highlight('TabLineSel', s:palette.bg0, s:palette.bg_red)
+  call sonokai#highlight('TabLineSel', s:palette.fg, s:palette.bg1)
 endif
 if s:configuration.dim_inactive_windows
   call sonokai#highlight('VertSplit', s:palette.bg4, s:palette.bg_dim)
