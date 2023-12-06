@@ -96,6 +96,8 @@ hi! Pmenu guifg=#d4d4d4 guibg=#252526
 hi! PmenuSel guifg=#ffffff guibg=#04395e
 hi! PmenuSbar guibg=#252526
 hi! PmenuThumb guibg=#474747
+hi! PmenuKind guifg=#8bc34a guibg=#252526
+hi! PmenuExtra guifg=darkgray guibg=#252526
 
 
 hi PreProc term=NONE guifg=#f0aa8a ctermfg=216
