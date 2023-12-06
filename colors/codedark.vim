@@ -101,6 +101,7 @@ if g:codedark_modern | let s:cdLeftMid = {'gui': '#181818', 'cterm': 'NONE', 'ct
 let s:cdLeftLight = {'gui': '#3F3F46', 'cterm': s:cterm03, 'cterm256': '238'}
 
 let s:cdPopupFront = {'gui': '#BBBBBB', 'cterm': s:cterm06, 'cterm256': '250'}
+let s:cdWhite = {'gui': '#ffffff', 'cterm': s:cterm06, 'cterm256': '250'}
 let s:cdPopupBack = {'gui': '#2D2D30', 'cterm': s:cterm01, 'cterm256': '236'}
 let s:cdPopupHighlightBlue = {'gui': '#073655', 'cterm': s:cterm0D, 'cterm256': '24'}
 let s:cdPopupHighlightGray = {'gui': '#3D3D40', 'cterm': s:cterm03, 'cterm256': '237'}
@@ -187,11 +188,11 @@ call <sid>hi('ModeMsg', s:cdFront, s:cdLeftDark, 'none', {})
 hi! link MoreMsg ModeMsg
 call <sid>hi('NonText', s:cdLineNumber, s:cdNone, 'none', {})
 call <sid>hi('Pmenu', s:cdPopupFront, s:cdPopupBack, 'none', {})
-call <sid>hi('PmenuSel', s:cdNone, s:cdPopupHighlightBlue, 'none', {})
+call <sid>hi('PmenuSel', s:cdWhite, s:cdDiffBlue, 'none', {})
 call <sid>hi('PmenuSbar', {}, s:cdPopupHighlightGray, 'none', {})
 call <sid>hi('PmenuThumb', {}, s:cdPopupFront, 'none', {})
 call <sid>hi('PmenuKind', s:cdYellow, s:cdPopupBack, 'none', {})
-call <sid>hi('PmenuExtra', s:cdGray, s:cdPopupBack, 'none', {})
+call <sid>hi('PmenuExtra', s:cdLightGreen, s:cdPopupBack, 'none', {})
 call <sid>hi('Question', s:cdBlue, s:cdBack, 'none', {})
 call <sid>hi('Search', s:cdNone, s:cdSearch, 'none', {})
 call <sid>hi('SpecialKey', s:cdBlue, s:cdNone, 'none', {})
