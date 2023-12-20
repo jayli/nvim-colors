@@ -203,7 +203,7 @@ call <sid>hi("MatchParen",    s:newmoon, s:shallow_blue, s:cterm00, s:cterm03,  
 call <sid>hi("ModeMsg",       s:yellow, "", s:cterm0B, "", "")
 call <sid>hi("MoreMsg",       s:yellow, "", s:cterm0B, "", "")
 call <sid>hi("Question",      s:teal, "", s:cterm09, "", "")
-call <sid>hi("Search",        s:shallow_blue, s:fullmoon, s:cterm03, s:cterm0A,  "")
+call <sid>hi("Search",        "NONE", s:fullmoon, s:cterm03, s:cterm0A,  "")
 call <sid>hi("SpecialKey",    s:shallow_blue, "", s:cterm03, "", "")
 call <sid>hi("TooLong",       s:salmon, "", s:cterm08, "", "")
 call <sid>hi("Underlined",    s:salmon, "", s:cterm08, "", "")
