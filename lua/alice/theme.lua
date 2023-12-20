@@ -149,6 +149,11 @@ theme.set_style = function()
   -- @@@ TODO: add support to LuaLine
   -- @@@ TODO: add support to Telescope
   -- @@@ TODO: add support to GitSigns
+  highlight("DiffAdd", { bg = "NONE" })
+  highlight("DiffDelete", { bg = "NONE" })
+  highlight("DiffChange", { bg = "NONE" })
+  highlight("DiffText", { bg = "NONE" })
+  highlight("TabLineSel", { gui = "underline" })
 end
 
 return theme
