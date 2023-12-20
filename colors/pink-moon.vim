@@ -20,7 +20,7 @@ let s:salmon = "D08785"
 let s:pink = "FCDBD9"
 
 let s:deep_sea_blue = "6d7b8b"
-let s:teal = "6F98B3"
+let s:teal = "83b0ce"
 " let s:sea_blue = 9DB1C7
 let s:shallow_blue = "a6b8cc"
 
