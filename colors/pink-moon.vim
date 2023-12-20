@@ -26,7 +26,7 @@ let s:shallow_blue = "a6b8cc"
 
 " let s:yellow = "FDF8CE"
 let s:yellow = "f3eec3"
-let s:starlight = "F0FDFF"
+let s:starlight = "e5eced"
 
 let s:cliquot = "FFd17f"
 
