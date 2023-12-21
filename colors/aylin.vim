@@ -271,7 +271,7 @@ hi link Float                 Number
 hi link Include               PreProc
 hi link Macro                 PreProc
 hi link Number                Identifier
-hi link Operator              Identifier
+hi link Operator              Structure 
 hi link PreCondit             PreProc
 hi link Repeat                Statement
 hi link SpecialChar           Special
