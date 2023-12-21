@@ -123,6 +123,8 @@ let colorgroup['PmenuSel']     = {"GUIBG":  _gray_dark}
 let colorgroup['PmenuSbar']    = {"GUIBG":  _black}
 "Thumb of the scrollbar."
 let colorgroup['PmenuThumb']    = {"GUIBG":  _black}
+let colorgroup['PmenuKind']     = {"GUIFG":  _purple, "GUIBG": _semiblack}
+let colorgroup['PmenuExtra']    = {"GUIFG":  _gray_dark, "GUIBG": _semiblack}
 
 let colorgroup['Search']       = {"GUIBG":  _gray_dark, "GUI": "underline"}
 let colorgroup['SignColumn']   = {"GUIBG":  _black}
@@ -279,6 +281,8 @@ hi link StorageClass          Identifier
 hi link Symbol                PreProc
 hi link Tag                   Normal
 hi link Typedef               Type
+hi link PmenuExtraSel         PmenuSel
+hi link PmenuKindSel          PmenuSel
 
 " === Highlighting Plugins ==="
 
