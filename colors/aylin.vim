@@ -1,4 +1,3 @@
-" vim:fdm=marker"
 " Vim Color File"
 " Name: aylin.vim"
 " Author: Ahmed Abdulrahman (@_ahmed_ab)"
@@ -144,13 +143,13 @@ let colorgroup['WarningMsg']   = {"GUIFG": _pink, "GUIBG":  _black}
 " === Other highlighting groups ==="
 let colorgroup['Access']       = {"GUIFG": _marzipan, "GUI": "bold"}
 let colorgroup['Character']    = {"GUIFG": _sky}
-let colorgroup['Define']       = {"GUIFG": _gray_light}
+let colorgroup['Define']       = {"GUIFG": "gray"}
 let colorgroup['Function']     = {"GUIFG": _d_turquoise}
 let colorgroup['Label']        = {"GUIFG": _d_turquoise}
 let colorgroup['Module']       = {"GUIFG": _aubergine, "GUI": "underline"}
 let colorgroup['NonText']      = {"GUIFG": _gray_dark}
 let colorgroup['String']       = {"GUIFG": _marzipan}
-let colorgroup['Structure']    = {"GUIFG": _gray}
+let colorgroup['Structure']    = {"GUIFG": _purple}
 let colorgroup['Object']       = {"GUIFG": _gray}
 let colorgroup['Xml']          = {"GUIFG": _purple}
 let colorgroup['Punctuation']  = {"GUIFG": _purple}
@@ -748,7 +747,6 @@ for key in keys(colorgroup)
     execute "hi ".key." term=".term." cterm=".cterm." gui=".gui." ctermfg=".ctermfg." guifg=".guifg." ctermbg=".ctermbg." guibg=".guibg." guisp=".guisp
   endif
 endfor
-
 
 " Must appear at the end of the file to work around this oddity:
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
