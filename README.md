@@ -34,3 +34,24 @@ vim.cmd.colorscheme("happy_hacking")
 
 ![](https://github.com/jayli/nvim-colors/assets/188244/ed2bc0f2-91a8-4cfc-b95c-34a08cdc2e61)
 
+### example
+
+```
+hi Pmenu  guifg=Lavender guibg=#2b2b3c
+hi PmenuSbar      guibg=#45475a
+hi PmenuExtra     guifg=SlateGray guibg=#2b2b3c
+hi link PmenuExtraSel  PmenuSel
+hi PmenuKind      guifg=Violet guibg=#2b2b3c
+hi link PmenuKindSel   PmenuSel
+hi PmenuThumb     guibg=#6c7086
+hi PmenuSel          cterm=bold gui=bold guifg=White guibg=RoyalBlue
+hi SignColumn     guifg=#45475a guibg=NONE
+hi Whitespace     guifg=dimgray
+hi TabLineSel     gui=underline
+hi DiffAdd        guibg=NONE
+hi DiffDelete     guibg=NONE
+hi DiffChange     guibg=NONE
+hi DiffText       guibg=NONE
+hi TabLineFill    guifg=#151515
+```
+
