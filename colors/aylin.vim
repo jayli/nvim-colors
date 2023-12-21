@@ -120,9 +120,9 @@ let colorgroup['Pmenu']        = {"GUIFG": _l_white,     "GUIBG":  _semiblack}
 "Popup menu: selected item"
 let colorgroup['PmenuSel']     = {"GUIBG":  _gray_dark}
 "Popup menu: scrollbar"
-let colorgroup['PmenuSbar']    = {"GUIBG":  _black}
+let colorgroup['PmenuSbar']    = {"GUIBG":  _semiblack}
 "Thumb of the scrollbar."
-let colorgroup['PmenuThumb']    = {"GUIBG":  _black}
+let colorgroup['PmenuThumb']    = {"GUIBG":  _semigray}
 let colorgroup['PmenuKind']     = {"GUIFG":  _purple, "GUIBG": _semiblack}
 let colorgroup['PmenuExtra']    = {"GUIFG":  _gray_dark, "GUIBG": _semiblack}
 
