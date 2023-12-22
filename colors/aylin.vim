@@ -6,7 +6,7 @@
 
 " === Colors ==="
 " --------------------------"
-:let _white       = '#ffffff'
+:let _white       = '#dfdfdf'
 :let _l_white     = '#ebefff'
 :let _d_white     = '#c8c8db'
 :let _gray_light  = '#74778c'
@@ -107,6 +107,8 @@ let colorgroup['Directory']    = {"GUIFG": _marzipan,   "GUIBG":  _black}
 let colorgroup['ErrorMsg']     = {"GUIFG": _black, "GUIBG":  _aubergine}
 let colorgroup['FoldColumn']   = {                     "GUIBG":  _black}
 let colorgroup['Folded']       = {"GUIFG": _l_white,     "GUIBG":  _semiblack}
+let colorgroup['Number']       = {"GUIFG": _purple,     "GUIBG":  _black}
+let colorgroup['Operator']     = {"GUIFG": _d_turquoise,     "GUIBG":  _black}
 let colorgroup['LineNr']       = {"GUIFG": _lightblack, "GUIBG":  _black}
 if &background == "light"
   let colorgroup['LineNr']     = {"GUIFG": _gray, "GUIBG":  _black}
@@ -145,7 +147,8 @@ let colorgroup['WarningMsg']   = {"GUIFG": _pink, "GUIBG":  _black}
 " === Other highlighting groups ==="
 let colorgroup['Access']       = {"GUIFG": _marzipan, "GUI": "bold"}
 let colorgroup['Character']    = {"GUIFG": _sky}
-let colorgroup['Define']       = {"GUIFG": "gray"}
+let colorgroup['Keyword']      = {"GUIFG": _l_sky,"GUIBG": "NONE"}
+let colorgroup['Define']       = {"GUIFG": "lightseagreen"}
 let colorgroup['Function']     = {"GUIFG": _d_turquoise}
 let colorgroup['Label']        = {"GUIFG": _d_turquoise}
 let colorgroup['Module']       = {"GUIFG": _aubergine, "GUI": "underline"}
@@ -161,7 +164,7 @@ let colorgroup['Attr']         = {"GUIFG": _green}
 let colorgroup['Comment']      = {"GUIFG": _gray_light, "CTERMFG":244, "CTERMBG":"NONE", "GUIBG": "NONE", "GUISP":"NONE", "CTERM":"NONE", "GUI":"NONE"}
 let colorgroup['Constant']     = {"GUIFG": _marzipan, "GUI": "bold"}
 let colorgroup['Identifier']   = {"GUIFG": _aubergine}
-let colorgroup['Statement']    = {"GUIFG": _l_sky}
+let colorgroup['Statement']    = {"GUIFG": _pink}
 let colorgroup['PreProc']      = {"GUIFG": _white}
 let colorgroup['Type']         = {"GUIFG": _d_white}
 let colorgroup['Special']      = {"GUIFG": _aubergine}
