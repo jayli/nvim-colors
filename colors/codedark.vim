@@ -146,6 +146,7 @@ let s:cdViolet = {'gui': '#646695', 'cterm': s:cterm04, 'cterm256': '60'}
 let s:cdBlue = {'gui': '#569CD6', 'cterm': s:cterm0D, 'cterm256': '75'}
 let s:cdDarkBlue = {'gui': '#223E55', 'cterm': s:cterm0D, 'cterm256': '73'}
 let s:cdLightBlue = {'gui': '#9CDCFE', 'cterm': s:cterm0C, 'cterm256': '117'}
+let s:cdSkyBlue = {'gui': '#50c2ff', 'cterm': s:cterm0C, 'cterm256': '117'}
 if g:codedark_conservative | let s:cdLightBlue = s:cdFront | endif
 let s:cdGreen = {'gui': '#6A9955', 'cterm': s:cterm0B, 'cterm256': '65'}
 let s:cdBlueGreen = {'gui': '#4EC9B0', 'cterm': s:cterm0F, 'cterm256': '43'}
@@ -302,7 +303,7 @@ if has("nvim")
     call <sid>hi('TSStructure', s:cdLightBlue, {}, 'none', {})
     call <sid>hiTSlink('@include', 'TSInclude', 'Include')
     " Variable
-    call <sid>hiTS('@variable', 'TSVariable', s:cdLightBlue, {}, 'none', {})
+    call <sid>hiTS('@variable', 'TSVariable', s:cdSkyBlue, {}, 'none', {})
     call <sid>hiTS('@variable.builtin', 'TSVariableBuiltin', s:cdLightBlue, {}, 'none', {})
     " Text
     call <sid>hiTS('@text', 'TSText', s:cdFront, s:cdNone, 'bold', {})
@@ -420,7 +421,7 @@ call <sid>hi('cssSelectorOp', s:cdFront, {}, 'none', {})
 call <sid>hi('cssKeyFrameProp2', s:cdLightGreen, {}, 'none', {})
 
 " JavaScript:
-call <sid>hi('jsVariableDef', s:cdLightBlue, {}, 'none', {})
+call <sid>hi('jsVariableDef', s:cdSkyBlue, {}, 'none', {})
 call <sid>hi('jsFuncArgs', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsFuncBlock', s:cdLightBlue, {}, 'none', {})
 call <sid>hi('jsRegexpString', s:cdLightRed, {}, 'none', {})
