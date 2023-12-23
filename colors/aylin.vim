@@ -107,8 +107,8 @@ let colorgroup['Directory']    = {"GUIFG": _marzipan,   "GUIBG":  _black}
 let colorgroup['ErrorMsg']     = {"GUIFG": _black, "GUIBG":  _aubergine}
 let colorgroup['FoldColumn']   = {                     "GUIBG":  _black}
 let colorgroup['Folded']       = {"GUIFG": _l_white,     "GUIBG":  _semiblack}
-let colorgroup['Number']       = {"GUIFG": _purple,     "GUIBG":  _black}
-let colorgroup['Operator']     = {"GUIFG": _d_turquoise,     "GUIBG":  _black}
+let colorgroup['Number']       = {"GUIFG": _purple,     "GUIBG":  "NONE"}
+let colorgroup['Operator']     = {"GUIFG": _d_turquoise,     "GUIBG":  "NONE"}
 let colorgroup['LineNr']       = {"GUIFG": _lightblack, "GUIBG":  _black}
 if &background == "light"
   let colorgroup['LineNr']     = {"GUIFG": _gray, "GUIBG":  _black}
