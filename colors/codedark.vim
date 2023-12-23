@@ -167,6 +167,7 @@ let s:cdSilver = {'gui': '#C0C0C0', 'cterm': s:cterm05, 'cterm256': '7'}
 "    <sid>hi(GROUP, FOREGROUND, BACKGROUND, ATTRIBUTE, SPECIAL)
 call <sid>hi('Normal', s:cdFront, s:cdBack, 'none', {})
 call <sid>hi('ColorColumn', {}, s:cdCursorDarkDark, 'none', {})
+hi Whitespace guibg=NONE gui=NONE guifg=#333334
 call <sid>hi('Cursor', s:cdCursorDark, s:cdCursorLight, 'none', {})
 call <sid>hi('CursorLine', {}, s:cdCursorDarkDark, 'none', {})
 hi! link CursorColumn CursorLine
