@@ -287,6 +287,9 @@ hi link Typedef               Type
 hi link PmenuExtraSel         PmenuSel
 hi link PmenuKindSel          PmenuSel
 
+let colorgroup['Include'] = {"GUIBG":  "NONE", "GUIFG":_purple}
+
+
 " === Highlighting Plugins ==="
 
 " CtrlP "
