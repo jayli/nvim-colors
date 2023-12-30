@@ -139,7 +139,7 @@ call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 hi! link Identifier   Normal
-hi! link Constant     Normal
+hi! link Constant     Keyword 
 hi! link Operator     Normal
 hi! link Type         Keyword
 hi! link Statement    Keyword
