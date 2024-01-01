@@ -28,8 +28,8 @@ hi PMenuKind guifg=#6a8ad0 guibg=#222436 ctermbg=235 gui=NONE cterm=NONE
 hi PMenuExtra guifg=#737b8d guibg=#222436 ctermbg=235 gui=NONE cterm=NONE
 hi PMenuSel guibg=#3d436c guifg=white ctermbg=236 gui=NONE cterm=NONE
 hi Whitespace guibg=NONE gui=NONE guifg=#383d5f
-hi PmenuSbar guibg=#191a2a ctermbg=234 gui=NONE cterm=NONE
-hi PmenuThumb guifg=#828bb8 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi PmenuSbar guibg=#191a2a guibg=NONE ctermbg=234 gui=NONE cterm=NONE
+hi PmenuThumb guifg=#828bb8 ctermfg=103 guibg=#191a2a ctermbg=NONE gui=NONE cterm=NONE
 hi Question guifg=#c099ff ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#161a2a ctermfg=234 guibg=#ffc777 ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#222436 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
