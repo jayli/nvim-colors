@@ -151,6 +151,8 @@ M.setup = function()
     PmenuSel = { fg = colors.bg2, bg = colors.blue, bold = config.bold },
     PmenuSbar = { bg = colors.bg2 },
     PmenuThumb = { bg = colors.bg4 },
+    PmenuKind = { link = "GruvboxFg0" },
+    PmenuExtra = { link = "GruvboxGray" },
     DiffDelete = { fg = colors.red, bg = colors.bg0, reverse = config.inverse },
     DiffAdd = { fg = colors.green, bg = colors.bg0, reverse = config.inverse },
     DiffChange = { fg = colors.aqua, bg = colors.bg0, reverse = config.inverse },
