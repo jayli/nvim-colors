@@ -145,6 +145,7 @@ endif
 let s:cdGray = {'gui': '#808080', 'cterm': s:cterm04, 'cterm256': '08'}
 let s:cdViolet = {'gui': '#646695', 'cterm': s:cterm04, 'cterm256': '60'}
 let s:cdBlue = {'gui': '#569CD6', 'cterm': s:cterm0D, 'cterm256': '75'}
+let s:cdFuzzyMatchBlue = {'gui': '#36acfd', 'cterm': s:cterm0D, 'cterm256': '75'}
 let s:cdDarkBlue = {'gui': '#223E55', 'cterm': s:cterm0D, 'cterm256': '73'}
 let s:cdLightBlue = {'gui': '#9CDCFE', 'cterm': s:cterm0C, 'cterm256': '117'}
 let s:cdSkyBlue = {'gui': '#50c2ff', 'cterm': s:cterm0C, 'cterm256': '117'}
@@ -219,7 +220,7 @@ hi! link diffRemoved DiffDelete
 if g:codedark_italics | call <sid>hi('Comment', s:cdGreen, {}, 'italic', {}) | else | call <sid>hi('Comment', s:cdGreen, {}, 'none', {}) | endif
 
 " SYNTAX HIGHLIGHT (built-in)
-call <sid>hi('Constant', s:cdBlue, {}, 'none', {})
+call <sid>hi('Constant', s:cdFuzzyMatchBlue, {}, 'none', {})
 call <sid>hi('String', s:cdOrange, {}, 'none', {})
 call <sid>hi('Character', s:cdOrange, {}, 'none', {})
 call <sid>hi('Number', s:cdLightGreen, {}, 'none', {})
