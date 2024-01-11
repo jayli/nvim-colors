@@ -243,7 +243,8 @@ hi! link Exception Statement
 hi! link Float Number
 hi! link FunctionDef Function
 hi! link Function BogsterLBlue
-hi! link Identifier BogsterFg1
+" hi! link Identifier BogsterFg1
+hi! link Identifier BogsterLRed
 hi! link Include PreProc
 hi! link IncSearch Search
 hi! link Keyword BogsterYellow
