@@ -191,5 +191,5 @@ hi DiffDelete  guibg=NONE
 hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
 
-hi EasyFuzzyMatch guifg=#f7536d
+hi EasyFuzzyMatch guifg=Tomato
 hi EasySnippets guifg=DimGray
