@@ -72,8 +72,9 @@ if version >= 700 " Vim 7.x specific colors
   hi CursorLine     guifg=NONE        guibg=#121212     gui=NONE
   hi CursorColumn   guifg=NONE        guibg=#121212     gui=NONE
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD
-  hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE
-  hi PmenuSel       guifg=#f1f1f1     guibg=#666666     gui=NONE
+  hi Pmenu          guifg=#f6f3e8     guibg=#333333     gui=NONE
+  hi PmenuExtra     guifg=#777777     guibg=#333333     gui=NONE
+  hi PmenuSel       guifg=#f1f1f1     guibg=#555555     gui=NONE
   hi Search         guifg=NONE        guibg=NONE        gui=underline
 endif
 
@@ -182,4 +183,4 @@ hi link javaScriptNumber      Number
 
 " Special for CSharp
 hi  link csXmlTag             Keyword
-hi EasyFuzzyMatch             guifg=#96cbfe
+hi EasyFuzzyMatch             guifg=#36acfd
