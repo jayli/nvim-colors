@@ -178,7 +178,7 @@ hi Pmenu       guifg=#a6aed1 guibg=#27282c
 hi PmenuSbar   guibg=#35363c
 hi PmenuExtra  guifg=Gray
 hi link        PmenuExtraSel  PmenuSel
-hi PmenuKind   guifg=Violet
+hi PmenuKind   guifg=DarkKhaki
 hi link        PmenuKindSel   PmenuSel
 hi PmenuThumb  guibg=#595b62
 hi PmenuSel    guifg=White guibg=#42444a
