@@ -176,7 +176,7 @@ hi link lispKey  Special
 " jayli custom
 hi Pmenu       guifg=#a6aed1 guibg=#27282c
 hi PmenuSbar   guibg=#35363c
-hi PmenuExtra  guifg=SlateGray
+hi PmenuExtra  guifg=Gray
 hi link        PmenuExtraSel  PmenuSel
 hi PmenuKind   guifg=Violet
 hi link        PmenuKindSel   PmenuSel
