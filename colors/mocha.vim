@@ -63,7 +63,7 @@ hi Comment      guifg=#7F8A70     gui=none
 hi Number       guifg=#A4C260
 hi Constant     guifg=white         gui=none
 hi Identifier   guifg=white
-hi Function     guifg=white           gui=none
+hi Function     guifg=MediumAquamarine      gui=none
 hi Statement    guifg=lightgoldenrod2 gui=none
 hi Delimiter    guifg=#997744
 hi PreProc      guifg=lightgoldenrod2 gui=none
@@ -78,6 +78,7 @@ hi SignColumn   guibg=#1B1814 gui=none
 hi ShowMarksHLl guifg=lightgoldenrod2 guibg=#151207
 
 hi link Operator Special
+hi Operator guifg=DarkSeaGreen
 hi link Structure Special
 hi link StorageClass Special
 
