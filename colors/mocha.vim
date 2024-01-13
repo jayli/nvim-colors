@@ -59,9 +59,10 @@ if has("spell")
     hi SpellRare  guisp=#f070f0 gui=undercurl
 endif
 
+hi Conditional  guifg=Gold
 hi Comment      guifg=#7F8A70     gui=none
 hi Number       guifg=#A4C260
-hi Constant     guifg=white         gui=none
+hi Constant     guifg=NavajoWhite         gui=none
 hi Identifier   guifg=white
 hi Function     guifg=MediumAquamarine      gui=none
 hi Statement    guifg=lightgoldenrod2 gui=none
@@ -191,3 +192,4 @@ hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
 
 hi EasyFuzzyMatch guifg=#f7536d
+hi EasySnippets guifg=DimGray
