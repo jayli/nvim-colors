@@ -186,7 +186,7 @@ hi PmenuSel    guifg=White guibg=#42444a
 hi SignColumn  guifg=#45475a guibg=NONE
 hi Whitespace  guifg=dimgray
 hi TabLineSel  gui=underline
-hi DiffAdd     guibg=NONE
+hi DiffAdd     guibg=NONE guifg=MediumSeaGreen
 hi DiffDelete  guibg=NONE
 hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
