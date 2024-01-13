@@ -27,7 +27,7 @@ hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reve
 hi Search guifg=#ef8fbf ctermfg=211 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Visual guifg=#bf8fef ctermfg=141 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi MatchParen guifg=#ef8f8f ctermfg=210 guibg=#503030 ctermbg=238 gui=bold cterm=bold
-hi NonText guifg=#59590d ctermfg=58 guibg=#303036 ctermbg=237 gui=NONE cterm=NONE
+hi NonText guifg=#59590d ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#efbf8f ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#ef8f8f ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi WarningMsg guifg=#efbf8f ctermfg=216 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
