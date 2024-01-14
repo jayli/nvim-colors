@@ -91,6 +91,7 @@ endfunction
 let colorgroup = {}
 
 " === Highlights ==="
+let colorgroup['EasyFuzzyMatch']    = {"GUIFG": _pink,     "GUIBG":  _black}
 let colorgroup['Normal']       = {"GUIFG": _l_white,     "GUIBG":  _black}
 let colorgroup['NormalNC']     = {"GUIFG": _l_white,     "GUIBG":  _black}
 let colorgroup['NormalSB']     = {"GUIFG": _d_white,     "GUIBG":  _semiblack}
