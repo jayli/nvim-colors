@@ -15,6 +15,7 @@ let g:colors_name="mocha"
 hi Normal    guifg=#ddddcc guibg=#1B1814 gui=none
 
 " highlight groups
+hi Keyword      guifg=BurlyWood       guibg=none     gui=none
 hi Cursor       guifg=black           guibg=yellow   gui=none
 hi ErrorMsg     guifg=white           guibg=red      gui=none
 hi VertSplit    guifg=gray40          guibg=gray40   gui=none
