@@ -136,6 +136,7 @@ call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Conditional", s:orange, "NONE", s:t_red, "NONE")
+call s:Color("EasyFuzzyMatch", s:red, "NONE", s:t_red, "NONE")
 
 call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
