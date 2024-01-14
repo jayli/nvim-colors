@@ -174,7 +174,7 @@ hi link lispAtom Character
 hi link lispKey  Special
 
 " jayli custom
-hi Pmenu       guifg=#a6aed1 guibg=#27282c
+hi Pmenu       guifg=#bcbcab guibg=#27282c
 hi PmenuSbar   guibg=#35363c
 hi PmenuExtra  guifg=Gray
 hi link        PmenuExtraSel  PmenuSel
@@ -191,5 +191,5 @@ hi DiffDelete  guibg=NONE
 hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
 
-hi EasyFuzzyMatch guifg=Tomato
+hi EasyFuzzyMatch guifg=GreenYellow
 hi EasySnippets guifg=DimGray
