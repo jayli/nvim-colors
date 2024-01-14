@@ -46,7 +46,7 @@ hi MatchParen   guifg=white           guibg=skyblue4
 hi DiffAdd      guifg=black           guibg=wheat1
 hi DiffChange   guifg=black           guibg=skyblue1
 hi DiffText     guifg=black           guibg=hotpink1 gui=none
-hi DiffDelete   guibg=gray45          guifg=black    gui=none
+hi DiffDelete   guibg=gray45          guifg=red    gui=none
 
 
 " Real diff
