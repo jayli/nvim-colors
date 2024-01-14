@@ -19,7 +19,7 @@ hi Keyword      guifg=BurlyWood       guibg=none     gui=none
 hi Cursor       guifg=black           guibg=yellow   gui=none
 hi ErrorMsg     guifg=white           guibg=red      gui=none
 hi VertSplit    guifg=gray40          guibg=gray40   gui=none
-hi Folded       guifg=grey            guibg=grey30   gui=none
+hi Folded       guifg=grey            guibg=NONE     gui=none
 hi FoldColumn   guifg=tan             guibg=grey30   gui=none
 hi IncSearch    guifg=#b0ffff         guibg=#2050d0
 hi LineNr       guifg=gray            gui=none
