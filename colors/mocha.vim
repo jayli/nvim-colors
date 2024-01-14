@@ -26,7 +26,7 @@ hi ModeMsg      guifg=SkyBlue         gui=none
 hi MoreMsg      guifg=SeaGreen        gui=none
 hi NonText      guifg=cyan            gui=none
 hi Question     guifg=springgreen     gui=none
-hi Search       guifg=gray80          guibg=#445599  gui=none
+hi Search       guifg=gray90          guibg=#1d265a  gui=none
 hi SpecialKey   guifg=cyan            gui=none
 hi StatusLine   guifg=black           guibg=#c2bfa5  gui=bold
 hi StatusLineNC guifg=white           guibg=gray20   gui=none
@@ -41,7 +41,7 @@ hi PmenuSbar    guifg=fg              guibg=#B99F86  gui=none
 hi PmenuSel     guifg=bg              guibg=#c0aa94  gui=none
 hi PmenuThumb   guifg=bg              guibg=#f7f7f1  gui=none
 hi WildMenu     guifg=gray            guibg=gray17   gui=none
-hi MatchParen   guifg=white           guibg=skyblue4 gui=bold
+hi MatchParen   guifg=white           guibg=skyblue4
 hi DiffAdd      guifg=black           guibg=wheat1
 hi DiffChange   guifg=black           guibg=skyblue1
 hi DiffText     guifg=black           guibg=hotpink1 gui=none
@@ -63,8 +63,8 @@ hi Conditional  guifg=Gold
 hi Comment      guifg=#7F8A70     gui=none
 hi Number       guifg=#A4C260
 hi Constant     guifg=NavajoWhite         gui=none
-hi Identifier   guifg=white
-hi Function     guifg=MediumAquamarine      gui=none
+hi Identifier   guifg=Wheat
+hi Function     guifg=Khaki           gui=none
 hi Statement    guifg=lightgoldenrod2 gui=none
 hi Delimiter    guifg=#997744
 hi PreProc      guifg=lightgoldenrod2 gui=none
