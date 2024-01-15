@@ -160,6 +160,8 @@ hi! link Character    String
 hi! link Label        Special
 hi! link PreCondit    Macro
 
+hi SignColumn guibg=NONE
+hi Identifier guifg=Khaki
 hi! NonText guifg=bg
 
 " ============================================================================
