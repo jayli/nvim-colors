@@ -184,3 +184,4 @@ hi link javaScriptNumber      Number
 " Special for CSharp
 hi  link csXmlTag             Keyword
 hi EasyFuzzyMatch             guifg=#36acfd
+hi SignColumn                 guibg=none
