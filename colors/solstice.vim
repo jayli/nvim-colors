@@ -76,7 +76,7 @@ if version >= 700 " Vim 7.x specific colors
   hi Pmenu          guifg=#f6f3e8     guibg=#222222     gui=NONE
   hi PmenuExtra     guifg=#777777     guibg=#222222     gui=NONE
   hi PmenuSel       guifg=#f1f1f1     guibg=#444444     gui=NONE
-  hi Search         guifg=NONE        guibg=NONE        gui=underline
+  hi Search         guifg=NONE        guibg=darkblue    gui=none
 endif
 
 " Syntax highlighting
