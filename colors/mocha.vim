@@ -191,6 +191,7 @@ hi DiffAdd     guibg=NONE guifg=MediumSeaGreen
 hi DiffDelete  guibg=NONE
 hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
+hi CursorLine guibg=#222222
 
 hi EasyFuzzyMatch guifg=GreenYellow
 hi EasySnippets guifg=DimGray
