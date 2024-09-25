@@ -96,6 +96,10 @@ hi DiffDelete  guibg=NONE
 hi DiffChange  guibg=NONE
 hi DiffText    guibg=NONE
 
+" For gitsigns
+hi GitGutterAdd    guibg=NONE
+hi GitGutterDelete guibg=NONE
+hi GitGutterChange guibg=NONE
 " hi EasyFuzzyMatch guifg=#f7536d
 
 let g:terminal_ansi_colors = [ '#1e1e22', '#ef8f8f', '#8fef8f', '#efef8f', '#8f8fef', '#ef8fef', '#8fefef', '#bbbbc3', '#787887', '#ef8f8f', '#8fef8f', '#efef8f', '#8f8fef', '#ef8fef', '#8fefef', '#dddde1' ]
