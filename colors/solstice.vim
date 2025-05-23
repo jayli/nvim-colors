@@ -167,7 +167,6 @@ hi link xmlTag          Keyword
 hi link xmlTagName      Conditional
 hi link xmlEndTag       Identifier
 
-
 " Special for HTML
 hi link htmlTag         Keyword
 hi link htmlTagName     Conditional
