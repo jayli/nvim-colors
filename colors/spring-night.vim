@@ -93,12 +93,12 @@ hi Operater term=NONE guifg=#f0aa8a ctermfg=216
 
 
 hi! Pmenu guifg=#d4d4d4 guibg=#1c324c
-hi! PmenuSel guifg=#ffffff guibg=#04395e
+hi! PmenuSel guifg=#ffffff guibg=#014370
 hi! PmenuSbar guibg=#1c324c
 hi! PmenuThumb guibg=#474747
 hi! PmenuKind guifg=#8bc34a guibg=#1c324c
 hi! PmenuExtra guifg=darkgray guibg=#1c324c
-hi! EasyFuzzyMatch guifg=deepskyblue
+hi! EasyFuzzyMatch guifg=#2196f3
 
 hi PreProc term=NONE guifg=#f0aa8a ctermfg=216
 hi Question term=NONE guifg=#a8d2eb ctermfg=153
