@@ -98,7 +98,7 @@ hi! PmenuSbar guibg=#1c324c
 hi! PmenuThumb guibg=#474747
 hi! PmenuKind guifg=#8bc34a guibg=#1c324c
 hi! PmenuExtra guifg=darkgray guibg=#1c324c
-
+hi! EasyFuzzyMatch guifg=deepskyblue
 
 hi PreProc term=NONE guifg=#f0aa8a ctermfg=216
 hi Question term=NONE guifg=#a8d2eb ctermfg=153
