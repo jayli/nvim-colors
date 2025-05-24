@@ -73,6 +73,7 @@ let s:purple = { 'gui': '#c792ea', 'cterm': 176 }
 let s:brown = { 'gui': '#c17e70', 'cterm': 137 }
 let s:pink = { 'gui': '#f07178', 'cterm': 204 }
 let s:violet = { 'gui': '#bb80b3', 'cterm': 139 }
+let s:fuzzymatch = {'gui': '#68c1fb', 'cterm':209}
 
 " Theme-specific color overrides
 if g:material_theme_style == 'palenight' || g:material_theme_style == 'palenight-community'
@@ -176,9 +177,10 @@ call s:SetHighlight('MoreMsg', s:green, '', '')
 call s:SetHighlight('NonText', s:comments, '', '')
 call s:SetHighlight('Normal', s:fg, s:bg, '')
 call s:SetHighlight('Pmenu', s:fg, s:selection, '')
-call s:SetHighlight('PmenuSel', s:bg, s:cyan, '')
+call s:SetHighlight('PmenuSel', s:white, s:comments, '')
+call s:SetHighlight('EasyFuzzyMatch', s:fuzzymatch, '', '')
 call s:SetHighlight('PmenuSbar', '', s:selection, '')
-call s:SetHighlight('PmenuThumb', '', s:comments, '')
+call s:SetHighlight('PmenuThumb', '', s:line_numbers, '')
 call s:SetHighlight('Question', s:blue, '', '')
 call s:SetHighlight('IncSearch', s:white, s:comments, 'none')
 call s:SetHighlight('Search', s:white, s:comments, 'none')
