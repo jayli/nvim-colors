@@ -30,15 +30,17 @@ vim.cmd.colorscheme("happy_hacking")
 ### night-owl
 ![截屏night-owl](https://github.com/jayli/nvim-colors/assets/188244/7632c1a4-de93-4779-8144-2cd6c95a83c4)
 
-### pink-moon
-![截屏pink-moon](https://github.com/jayli/nvim-colors/assets/188244/d839fe4b-f705-4ed5-ae34-2d692cd737cd)
-
 ### sonokai
 ![截屏sonokai](https://github.com/jayli/nvim-colors/assets/188244/023ee1ed-afa2-4328-b2a2-dfbb1f8b8300)
 
 ### spring-night
 ![截屏spring-night](https://github.com/jayli/nvim-colors/assets/188244/c9fe8574-5198-401f-8ac0-c29fc56066e2)
 
+### material
+
+```
+let g:material_theme_style = 'default' | 'palenight' | 'ocean' | 'lighter' | 'darker' | 'default-community' | 'palenight-community' | 'ocean-community' | 'lighter-community' | 'darker-community'
+```
 
 ### Pmenu example
 
