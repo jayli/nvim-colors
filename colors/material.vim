@@ -73,7 +73,7 @@ let s:purple = { 'gui': '#c792ea', 'cterm': 176 }
 let s:brown = { 'gui': '#c17e70', 'cterm': 137 }
 let s:pink = { 'gui': '#f07178', 'cterm': 204 }
 let s:violet = { 'gui': '#bb80b3', 'cterm': 139 }
-let s:fuzzymatch = {'gui': '#68c1fb', 'cterm':209}
+let s:fuzzymatch = {'gui': '#6fd0fb', 'cterm':209}
 
 " Theme-specific color overrides
 if g:material_theme_style == 'palenight' || g:material_theme_style == 'palenight-community'
