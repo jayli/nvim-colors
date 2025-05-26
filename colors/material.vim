@@ -60,6 +60,7 @@ let s:selection = { 'gui': '#2c3b41', 'cterm': 239 }
 let s:guides = { 'gui': '#37474f', 'cterm': 17 }
 let s:line_numbers = { 'gui': '#37474f', 'cterm': 145 }
 let s:line_highlight = { 'gui': '#1a2327', 'cterm': 235 }
+let s:new_line_highlight = {'gui': '#272727', 'cterm': 233 }
 let s:white = { 'gui': '#ffffff', 'cterm': 231 }
 let s:black = { 'gui': '#000000', 'cterm': 232 }
 let s:red = { 'gui': '#ff5370', 'cterm': 203 }
@@ -160,7 +161,7 @@ let g:material_colorscheme_map.violet = s:violet
 call s:SetHighlight('ColorColumn', '', s:invisibles, '')
 call s:SetHighlight('Cursor', s:bg, s:caret, '')
 call s:SetHighlight('CursorColumn', '', s:line_highlight, '')
-call s:SetHighlight('CursorLine', '', s:line_highlight, '')
+call s:SetHighlight('CursorLine', '', s:new_line_highlight, '')
 call s:SetHighlight('CursorLineNr', s:comments, '', '')
 call s:SetHighlight('Directory', s:blue, '', '')
 call s:SetHighlight('DiffAdd', s:green, s:bg, '')
