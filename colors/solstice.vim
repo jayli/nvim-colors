@@ -41,7 +41,7 @@ let colors_name = "solstice"
 
 
 " Interface
-hi Normal           guifg=#f6f3e8     guibg=black       gui=NONE
+hi Normal           guifg=#d2d2d2   guibg=black       gui=NONE
 hi NonText          guifg=#070707     guibg=black       gui=NONE
 
 hi Cursor           guifg=black       guibg=white       gui=NONE

@@ -74,7 +74,7 @@ let s:purple = { 'gui': '#c792ea', 'cterm': 176 }
 let s:brown = { 'gui': '#c17e70', 'cterm': 137 }
 let s:pink = { 'gui': '#f07178', 'cterm': 204 }
 let s:violet = { 'gui': '#bb80b3', 'cterm': 139 }
-let s:fuzzymatch = {'gui': '#6fd0fb', 'cterm':209}
+let s:fuzzymatch = {'gui': '#6f9efb', 'cterm':209}
 
 " Theme-specific color overrides
 if g:material_theme_style == 'palenight' || g:material_theme_style == 'palenight-community'
@@ -82,15 +82,17 @@ if g:material_theme_style == 'palenight' || g:material_theme_style == 'palenight
   let s:fg = { 'gui': '#a6accd', 'cterm': 146 }
   let s:invisibles = { 'gui': '#4e5579', 'cterm': 60 }
   let s:comments = { 'gui': '#676e95', 'cterm': 60 }
+  let s:pmenu_sel = { 'gui': '#595e7a', 'cterm': 60 }
   let s:selection = { 'gui': '#343b51', 'cterm': 60 }
   let s:guides = { 'gui': '#4e5579', 'cterm': 60 }
   let s:line_numbers = { 'gui': '#3a3f58', 'cterm': 60 }
   let s:line_highlight = { 'gui': '#1c1f2b', 'cterm': 234 }
 elseif g:material_theme_style == 'darker' || g:material_theme_style == 'darker-community'
   let s:bg = { 'gui': '#212121', 'cterm': 'none' }
-  let s:fg = { 'gui': '#eeffff', 'cterm': 231 }
+  let s:fg = { 'gui': '#d5d5d5', 'cterm': 231 }
   let s:invisibles = { 'gui': '#65737e', 'cterm': 66 }
   let s:comments = { 'gui': '#545454', 'cterm': 59 }
+  let s:pmenu_sel = { 'gui': '#383838', 'cterm': 59 }
   let s:selection = { 'gui': '#2c2c2c', 'cterm': 237 }
   let s:guides = { 'gui': '#424242', 'cterm': 0 }
   let s:line_numbers = { 'gui': '#424242', 'cterm': 0 }
@@ -100,6 +102,7 @@ elseif g:material_theme_style == 'ocean' || g:material_theme_style == 'ocean-com
   let s:fg = { 'gui': '#8f93a2', 'cterm': 103 }
   let s:invisibles = { 'gui': '#80869e', 'cterm': 103 }
   let s:comments = { 'gui': '#464b5d', 'cterm': 60 }
+  let s:pmenu_sel = { 'gui': '#464b5d', 'cterm': 60 }
   let s:selection = { 'gui': '#1f2233', 'cterm': 60 }
   let s:guides = { 'gui': '#3b3f51', 'cterm': 17 }
   let s:line_numbers = { 'gui': '#3b3f51', 'cterm': 60 }
@@ -110,6 +113,7 @@ elseif g:material_theme_style == 'lighter' || g:material_theme_style == 'lighter
   let s:fg = { 'gui': '#90a4ae', 'cterm': 109 }
   let s:invisibles = { 'gui': '#e7eaec', 'cterm': 189 }
   let s:comments = { 'gui': '#90a4ae', 'cterm': 109 }
+  let s:pmenu_sel = { 'gui': '#90a4ae', 'cterm': 109 }
   let s:caret = { 'gui': '#272727', 'cterm': 0 }
   let s:selection = { 'gui': '#ebf4f3', 'cterm': 254 }
   let s:guides = { 'gui': '#b0bec5', 'cterm': 146 }
@@ -178,7 +182,7 @@ call s:SetHighlight('MoreMsg', s:green, '', '')
 call s:SetHighlight('NonText', s:comments, '', '')
 call s:SetHighlight('Normal', s:fg, s:bg, '')
 call s:SetHighlight('Pmenu', s:fg, s:selection, '')
-call s:SetHighlight('PmenuSel', s:white, s:comments, '')
+call s:SetHighlight('PmenuSel', s:white, s:pmenu_sel, '')
 call s:SetHighlight('EasyFuzzyMatch', s:fuzzymatch, '', '')
 call s:SetHighlight('PmenuExtra', s:paleblue, '', '')
 call s:SetHighlight('PmenuSbar', '', s:selection, '')
