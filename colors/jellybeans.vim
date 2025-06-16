@@ -88,7 +88,7 @@ endif
 " - g:jellybeans_use_gui_italics    (default = 1)
 " - g:jellybeans_use_term_italics   (default = 0)
 
-let s:background_color = "151515"
+let s:background_color = "101010"
 
 if exists("g:jellybeans_overrides")
   let s:overrides = g:jellybeans_overrides
@@ -471,7 +471,7 @@ call s:X("WildMenu","f0a0c0","302028","","Magenta","")
 
 call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
 call s:X("FoldColumn","535D66","1f1f1f","","",s:termBlack)
-call s:X("SignColumn","777777","333333","","",s:termBlack)
+call s:X("SignColumn","777777","101010","","",s:termBlack)
 call s:X("ColorColumn","","000000","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
