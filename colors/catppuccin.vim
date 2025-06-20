@@ -1,7 +1,7 @@
 lua require("catppuccin").load()
 
-hi PmenuKind guifg=LightSteelBlue guibg=#2b2b3c
-hi Pmenu guifg=Lavender guibg=#2b2b3c
-hi PmenuExtra guifg=SlateGray guibg=#2b2b3c
-hi PmenuSel guifg=white guibg=darkslateblue
+hi PmenuKind guifg=LightSteelBlue guibg=#2c2c3e
+hi Pmenu guifg=Lavender guibg=#2c2c3e
+hi PmenuExtra guifg=SlateGray guibg=#2c2c3e
+hi PmenuSel guifg=white guibg=#3a3a4c
 hi EasyFuzzyMatch guifg=DeepSkyBlue
