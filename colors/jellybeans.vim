@@ -453,7 +453,7 @@ call s:X("TabLineSel","000000","f0f0f0","italic,bold",s:termBlack,"White")
 
 " Auto-completion
 call s:X("Pmenu","a6a6a7","2c2c2d","","White",s:termBlack)
-call s:X("EasyFuzzyMatch","ffb240","none","","orange",s:termBlack)
+call s:X("EasyFuzzyMatch","ffb240","none","bold","orange",s:termBlack)
 call s:X("PmenuSel","f7f8f8","424242","",s:termBlack,"White")
 
 call s:X("Visual","","404040","","",s:termBlack)
