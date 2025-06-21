@@ -36,10 +36,11 @@ hi Pmenu  guifg=Lavender guibg=#2b2b3c
 hi PmenuSbar      guibg=#45475a
 hi PmenuExtra     guifg=SlateGray guibg=#2b2b3c
 hi link PmenuExtraSel  PmenuSel
-hi PmenuKind      guifg=Violet guibg=#2b2b3c
+hi PmenuKind      guifg=#b9b9b9 guibg=NONE
 hi link PmenuKindSel   PmenuSel
 hi PmenuThumb     guibg=#6c7086
-hi PmenuSel          cterm=bold gui=bold guifg=White guibg=RoyalBlue
+hi PmenuSel          cterm=bold gui=bold guifg=White guibg=#1f406b
+hi EasyFuzzyMatch guifg=#74a9fe gui=bold
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
