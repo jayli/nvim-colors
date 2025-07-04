@@ -41,6 +41,7 @@ hi link PmenuKindSel   PmenuSel
 hi PmenuThumb     guibg=#6c7086
 hi PmenuSel          cterm=bold gui=bold guifg=White guibg=#1f406b
 hi EasyFuzzyMatch guifg=#74a9fe gui=bold
+hi FloatBorder guifg=#999999
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
