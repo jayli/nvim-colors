@@ -64,6 +64,8 @@ let s:clouds = { "gui": "#cbe3e7", "cterm": "253", "cterm16": "7"}
 let s:dark_clouds = { "gui": "#a6b3cc", "cterm": "252", "cterm16": "15"}
 let s:bg_dark_pmenu = { "gui": "#40405a", "cterm": "236", "cterm16": "8"}
 let s:bg_dark_kind = { "gui": "#40405a", "cterm": "236", "cterm16": "8"}
+let s:status_bg = { "gui": "#3e254a", "cterm": "236", "cterm16": "8"}
+let s:status_fg = { "gui": "#eeeeee", "cterm": "251", "cterm16": "9"}
 
 let s:bg              = s:asphalt
 let s:bg_subtle       = s:asphalt_subtle
@@ -173,9 +175,9 @@ hi! link ModeMsg MoreMsg
 call s:h("LineNr",        {"fg": s:dark_asphalt})
 call s:h("CursorLineNr",  {"bg": s:bg_subtle, "fg": s:blue, "gui": "bold"})
 call s:h("Question",      {"fg": s:red})
-call s:h("StatusLine",    {"bg": s:bg_dark})
+call s:h("StatusLine",    {"bg": s:status_bg, "fg": s:status_fg })
 call s:h("Conceal",       {"fg": s:norm})
-call s:h("StatusLineNC",  {"bg": s:bg_dark, "fg": s:medium_gray})
+call s:h("StatusLineNC",  {"bg": s:status_bg, "fg": s:medium_gray})
 call s:h("VertSplit",     {"fg": s:bg_subtle})
 call s:h("Title",         {"fg": s:dark_blue})
 call s:h("Visual",        {"bg": s:visual})
