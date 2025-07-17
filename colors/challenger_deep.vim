@@ -66,6 +66,7 @@ let s:bg_dark_pmenu = { "gui": "#40405a", "cterm": "236", "cterm16": "8"}
 let s:bg_dark_kind = { "gui": "#40405a", "cterm": "236", "cterm16": "8"}
 let s:status_bg = { "gui": "#3e254a", "cterm": "236", "cterm16": "8"}
 let s:status_fg = { "gui": "#eeeeee", "cterm": "251", "cterm16": "9"}
+let s:floatbd_fg = { "gui": "#6c6297", "cterm": "251", "cterm16": "9"}
 
 let s:bg              = s:asphalt
 let s:bg_subtle       = s:asphalt_subtle
@@ -178,6 +179,7 @@ call s:h("Question",      {"fg": s:red})
 call s:h("StatusLine",    {"bg": s:status_bg, "fg": s:status_fg })
 call s:h("Conceal",       {"fg": s:norm})
 call s:h("StatusLineNC",  {"bg": s:status_bg, "fg": s:medium_gray})
+call s:h("FloatBorder",   {"fg": s:floatbd_fg})
 call s:h("VertSplit",     {"fg": s:bg_subtle})
 call s:h("Title",         {"fg": s:dark_blue})
 call s:h("Visual",        {"bg": s:visual})
