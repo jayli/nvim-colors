@@ -41,10 +41,14 @@ hi DiffChange guifg=NONE ctermfg=NONE guibg=#282d3d ctermbg=237 gui=NONE cterm=N
 hi DiffText guifg=NONE ctermfg=NONE guibg=#1b3236 ctermbg=236 gui=NONE cterm=NONE
 hi Folded guifg=#90aafa ctermfg=111 guibg=#2e2d33 ctermbg=236 gui=italic cterm=italic
 hi FoldColumn guifg=#90aafa ctermfg=111 guibg=#1d1c21 ctermbg=235 gui=NONE cterm=NONE
-hi Pmenu guifg=#dedde4 ctermfg=254 guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
-hi PmenuSel guifg=white ctermfg=111 guibg=#333333 ctermbg=236 gui=bold
-hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
-hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#fddb7c ctermbg=222 gui=NONE cterm=NONE
+hi Pmenu guifg=#cfcfcf ctermfg=254 guibg=#2e2d33 ctermbg=236 cterm=NONE gui=NONE
+hi PmenuSel guifg=white ctermfg=111 guibg=#333333 ctermbg=236 cterm=NONE gui=NONE
+hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 cterm=NONE
+hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#555555 ctermbg=222 cterm=NONE
+hi PmenuKind gui=NONE guifg=#999999
+hi PmenuExtra gui=NONE guifg=#777777
+hi EasyFuzzyMatch guifg=#3c94e0
+hi FloatBorder guifg=#666666
 hi WildMenu guifg=#90aafa ctermfg=111 guibg=#2e2d33 ctermbg=236 gui=bold,reverse cterm=bold,reverse
 hi LineNr guifg=#555555 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
