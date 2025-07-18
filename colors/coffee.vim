@@ -37,6 +37,7 @@ hi Normal guifg=#b0a594 guibg=NONE guisp=NONE gui=NONE ctermfg=144 ctermbg=NONE 
 "hi TabLine -- no settings --
 "hi clear -- no settings --
 hi IncSearch guifg=#fff0d6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi CursorLine guibg=#222222
 hi SpecialComment guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi Title guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
@@ -57,10 +58,10 @@ hi StorageClass guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg
 hi Todo guifg=#fff300 guibg=#aa0006 guisp=#aa0006 gui=NONE ctermfg=11 ctermbg=124 cterm=NONE
 hi Special guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#555555 guibg=#151515 guisp=#000000 gui=NONE ctermfg=11 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#deefff guibg=#000000 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#deefff guibg=#1b4480 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi Label guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi PMenuSel guifg=white guibg=#303030 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
-hi PmenuMatch guifg=#ecb3ff
+hi PmenuMatch guifg=#73acff
 hi PmenuKind guifg=#999999
 hi PmenuExtra guifg=#777777
 hi Search guifg=#fff0d6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
