@@ -60,7 +60,7 @@ hi LineNr guifg=#555555 guibg=#151515 guisp=#000000 gui=NONE ctermfg=11 ctermbg=
 hi StatusLine guifg=#deefff guibg=#000000 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi Label guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi PMenuSel guifg=white guibg=#303030 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
-hi PmenuMatch guifg=#e8984b
+hi PmenuMatch guifg=#ecb3ff
 hi PmenuKind guifg=#999999
 hi PmenuExtra guifg=#777777
 hi Search guifg=#fff0d6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
