@@ -51,7 +51,7 @@ hi EasyFuzzyMatch guifg=#3c94e0
 hi FloatBorder guifg=#666666
 hi WildMenu guifg=#90aafa ctermfg=111 guibg=#2e2d33 ctermbg=236 gui=bold,reverse cterm=bold,reverse
 hi LineNr guifg=#555555 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#111111 ctermbg=236 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#fddb7c ctermfg=222 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi SpellBad guifg=#f09080 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
