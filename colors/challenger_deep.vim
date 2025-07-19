@@ -31,6 +31,7 @@ let s:white           = { "gui": "#F3F3F3", "cterm": "15", "cterm16" : "15" }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231", "cterm16" : "231" }
 let s:light_black     = { "gui": "#424242", "cterm": "8", "cterm16" : "0" }
 let s:lighter_black   = { "gui": "#545454", "cterm": "240", "cterm16" : "240" }
+let s:orange          = { "gui": "#ffbc56", "cterm": "231", "cterm16" : "231" }
 
 " lighter shadows and darker grays
 let s:subtle_black  = { "gui": "#303030", "cterm": "236", "cterm16" : "236" }
@@ -158,6 +159,7 @@ call s:h("Underlined",    {"fg": s:norm                      , "gui": "underline
 call s:h("Ignore",        {"fg": s:bg                                                                  })
 call s:h("Error",         {"fg": s:dark_red, "bg": s:bg_subtle , "gui": "bold"     , "cterm": "bold"     })
 call s:h("Todo",          {"fg": s:dark_yellow, "bg": s:bg_subtle, "gui": "bold"     , "cterm": "bold"     })
+call s:h("Delimiter",     {"fg": s:orange                                                               })
 
 " ui chrome ====================================================================
 " ordered according to `:help hitest.vim`
