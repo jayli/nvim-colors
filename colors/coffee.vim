@@ -65,7 +65,7 @@ hi PmenuMatch guifg=#73acff
 hi PmenuKind guifg=#999999
 hi PmenuExtra guifg=#777777
 hi Search guifg=#fff0d6 guibg=#444444 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
-hi Delimiter guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
+hi Delimiter guifg=#cf6a4c guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi Statement guifg=#effec5 guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi Comment guifg=#1a1813 guibg=NONE guisp=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
 hi Character guifg=#cefece guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
