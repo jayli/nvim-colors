@@ -83,5 +83,6 @@ hi ToolbarLine guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
 hi ToolbarButton guifg=#9e9da4 ctermfg=248 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi debugPc guifg=NONE ctermfg=NONE guibg=#1b3236 ctermbg=236 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#f09080 ctermfg=210 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
+hi link Operator  Keyword
 
 let g:terminal_ansi_colors = [ '#1d1c21', '#f09080', '#93e4a4', '#fddb7c', '#90aafa', '#d991d2', '#30c2d8', '#bdbdc4', '#807f86', '#f09080', '#93e4a4', '#fddb7c', '#90aafa', '#d991d2', '#30c2d8', '#dedde4' ]
