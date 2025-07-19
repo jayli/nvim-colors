@@ -205,7 +205,7 @@ else
   call s:h("SpellLocal",  {"cterm": "underline", "fg": s:dark_green})
 endif
 call s:h("Pmenu",         {"fg": s:norm, "bg": s:bg_subtle})
-call s:h("PmenuMatch",    {"fg": s:yellow, "bg": s:bg_subtle})
+call s:h("PmenuMatch",    {"fg": s:dark_blue, "bg": s:bg_subtle})
 call s:h("PmenuExtra",    {"fg": s:bg_dark, "bg": s:bg_subtle})
 call s:h("PmenuKind",     {"fg": s:medium_gray, "bg": s:bg_subtle})
 call s:h("PmenuSel",      {"fg": s:norm, "bg": s:bg_dark_pmenu})
