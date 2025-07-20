@@ -100,13 +100,15 @@ endfunction
 " Definitions for generic syntax elements such as strings and numbers.
 
 call s:Color("Pmenu", s:white, s:black2, s:t_white, s:t_black2)
-call s:Color("PmenuSel", s:white, s:gray2, s:t_white, s:t_gray2)
-call s:Color("PmenuKind", s:yellow, s:black2, s:t_white, s:t_gray2)
+call s:Color("PmenuSel", s:white, s:gray6, s:t_white, s:t_gray2)
+call s:Color("PmenuThumb", s:white, s:gray2, s:t_white, s:t_gray2)
+call s:Color("PmenuKind", s:gray5, s:black2, s:t_white, s:t_gray2)
 call s:Color("PmenuExtra", s:gray4, s:black2, s:t_white, s:t_gray2)
+call s:Color("PmenuMatch", s:blue, "NONE", s:t_red, "NONE")
 call s:Color("Cursor", "NONE", s:gray2, "NONE", s:t_gray2)
 call s:Color("CursorLine", "NONE", "#333333", s:t_white, s:t_gray2)
 call s:Color("Normal", s:white, s:gray1, s:t_white, s:t_gray1)
-call s:Color("Search", s:yellow, "NONE", s:t_yellow, "NONE", "bold")
+call s:Color("Search", s:yellow, s:gray2, s:t_yellow, "NONE", "bold")
 call s:Color("Title", s:white, "NONE", s:t_white, "NONE", "bold")
 
 call s:Color("LineNr", s:gray4, "NONE", s:t_gray4, "NONE")
@@ -115,6 +117,7 @@ call s:Color("StatusLineNC", s:gray4, s:gray6, s:t_gray4, s:t_gray6)
 call s:Color("StatusLineMarker", s:yellow, s:gray6, s:t_yellow, s:t_gray6, "bold")
 call s:Color("VertSplit", s:gray3, "NONE", s:t_gray3, "NONE")
 call s:Color("ColorColumn", "NONE", s:gray6, "NONE", s:t_gray6)
+call s:Color("FloatBorder", s:gray3, "NONE", "NONE", "NONE")
 
 call s:Color("Folded", s:gray4, "NONE", s:t_gray4, "NONE")
 call s:Color("FoldColumn", s:gray3, s:gray1, s:t_gray3, s:t_gray1)
@@ -136,24 +139,23 @@ call s:Color("Macro", s:orange, "NONE", s:t_orange, "NONE")
 call s:Color("Function", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Notice", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("Conditional", s:orange, "NONE", s:t_red, "NONE")
-call s:Color("EasyFuzzyMatch", s:red, "NONE", s:t_red, "NONE")
+call s:Color("StateMent", s:pink, "NONE", s:t_red, "NONE")
 
-call s:Color("MatchParen", "NONE", "NONE", "NONE", "NONE", "bold")
+call s:Color("MatchParen", "NONE", s:gray1, "NONE", "NONE", "bold")
 call s:Color("Conceal", "NONE", "NONE", "NONE", "NONE", "NONE")
 
 hi! link Identifier   Normal
 hi! link Constant     Keyword 
-hi! link Operator     Normal
+hi! link Operator     PmenuMatch
 hi! link Type         Keyword
-hi! link Statement    Keyword
-hi! link PmenuThumb   PmenuSel
+hi! link Statement    StateMent
 hi! link Visual       Cursor
 hi! link SignColumn   FoldColumn
 hi! link Error        ErrorMsg
 hi! link NonText      LineNr
 hi! link PreProc      Normal
 hi! link Special      Normal
-hi! link Boolean      Keyword
+hi! link Boolean      Function
 hi! link StorageClass Keyword
 hi! link MoreMsg      Normal
 hi! link Character    String
@@ -239,6 +241,10 @@ hi! link javaScriptMember     Normal
 hi! link javaScriptIdentifier Keyword
 hi! link javaScriptFunction   Keyword
 hi! link JavaScriptNumber     Number
+hi! link jsParens             Todo
+hi! link jsFuncParens         Todo
+hi! link jsThis               Notice
+hi! link jsPrototype          Keyword
 
 " Java
 hi! link javaCommentTitle javaComment
@@ -395,3 +401,4 @@ hi! link ALEError Error
 " Fugitive
 call s:Color("FugitiveblameHash", s:yellow, "NONE", s:t_yellow, "NONE")
 call s:Color("FugitiveblameTime", s:turqoise, "NONE", s:t_turqoise, "NONE")
+
