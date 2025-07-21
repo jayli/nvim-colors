@@ -58,14 +58,14 @@ hi StorageClass guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg
 hi Todo guifg=#fff300 guibg=#aa0006 guisp=#aa0006 gui=NONE ctermfg=11 ctermbg=124 cterm=NONE
 hi Special guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#555555 guibg=#151515 guisp=#000000 gui=NONE ctermfg=11 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#deefff guibg=#1b4480 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#deefff guibg=#444444 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi Label guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi PMenuSel guifg=white guibg=#303030 guisp=#000000 gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE
 hi PmenuMatch guifg=#73acff
 hi PmenuKind guifg=#999999
 hi PmenuExtra guifg=#777777
-hi Search guifg=#fff0d6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
-hi Delimiter guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
+hi Search guifg=#fff0d6 guibg=#444444 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi Delimiter guifg=#cf6a4c guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi Statement guifg=#effec5 guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi Comment guifg=#1a1813 guibg=NONE guisp=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
 hi Character guifg=#cefece guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
@@ -81,7 +81,7 @@ hi Define guifg=#85ff85 guibg=NONE guisp=NONE gui=NONE ctermfg=120 ctermbg=NONE 
 hi Function guifg=#cc7c3d guibg=NONE guisp=NONE gui=NONE ctermfg=173 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#88c0c7 guibg=NONE guisp=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE
 hi PreProc guifg=#85ff85 guibg=NONE guisp=NONE gui=NONE ctermfg=120 ctermbg=NONE cterm=NONE
-hi Visual guifg=#fff0d6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi Visual guifg=#fff0d6 guibg=#444444 guisp=#000000 gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi MoreMsg guifg=#00ff00 guibg=NONE guisp=NONE gui=NONE ctermfg=10 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#a4b1bd guibg=#395956 guisp=#395956 gui=NONE ctermfg=109 ctermbg=66 cterm=NONE
 hi Exception guifg=#c6feeb guibg=NONE guisp=NONE gui=NONE ctermfg=195 ctermbg=NONE cterm=NONE

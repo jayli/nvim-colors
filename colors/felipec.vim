@@ -27,7 +27,7 @@ hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reve
 hi Search guifg=#ec8dab ctermfg=211 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi Visual guifg=#ba9cef ctermfg=147 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi MatchParen guifg=#f09080 ctermfg=210 guibg=#3c2825 ctermbg=236 gui=bold cterm=bold
-hi NonText guifg=#695205 ctermfg=58 guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
+hi NonText guifg=#695205 ctermfg=58 guibg=#1d1c21 ctermbg=236 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ffbb7b ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#f09080 ctermfg=210 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
 hi WarningMsg guifg=#ffbb7b ctermfg=216 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
@@ -51,7 +51,7 @@ hi EasyFuzzyMatch guifg=#3c94e0
 hi FloatBorder guifg=#666666
 hi WildMenu guifg=#90aafa ctermfg=111 guibg=#2e2d33 ctermbg=236 gui=bold,reverse cterm=bold,reverse
 hi LineNr guifg=#555555 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#111111 ctermbg=236 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#fddb7c ctermfg=222 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi SpellBad guifg=#f09080 ctermfg=210 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -83,5 +83,6 @@ hi ToolbarLine guibg=#2e2d33 ctermbg=236 gui=NONE cterm=NONE
 hi ToolbarButton guifg=#9e9da4 ctermfg=248 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi debugPc guifg=NONE ctermfg=NONE guibg=#1b3236 ctermbg=236 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#f09080 ctermfg=210 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
+hi link Operator  Keyword
 
 let g:terminal_ansi_colors = [ '#1d1c21', '#f09080', '#93e4a4', '#fddb7c', '#90aafa', '#d991d2', '#30c2d8', '#bdbdc4', '#807f86', '#f09080', '#93e4a4', '#fddb7c', '#90aafa', '#d991d2', '#30c2d8', '#dedde4' ]
