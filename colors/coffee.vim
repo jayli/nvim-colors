@@ -91,7 +91,7 @@ hi DiffChange guifg=#b0a594 guibg=#70695e guisp=#70695e gui=NONE ctermfg=144 cte
 hi Cursor guifg=NONE guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=NONE ctermbg=15 cterm=NONE
 hi Error guifg=#ff4c4a guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
 hi PMenu guifg=#ddd6c3 guibg=#395956 guisp=#395956 gui=NONE ctermfg=109 ctermbg=66 cterm=NONE
-hi FloatBorder guifg=#777777
+hi FloatBorder guifg=#666666
 hi SpecialKey guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi Constant guifg=#cefece guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 hi Tag guifg=#eeffee guibg=NONE guisp=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
