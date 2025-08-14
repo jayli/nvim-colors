@@ -8,4 +8,4 @@ hi PmenuSel guifg=white guibg=#24273a
 hi EasyFuzzyMatch guifg=#75adf3
 hi FloatBorder guifg=#777777
 hi StatusLine guibg=#333445
-hi FloatBorder guifg=#444444
+hi FloatBorder guifg=#555555
