@@ -659,6 +659,7 @@ call <sid>hi('LspCxxHlSymTypeAlias', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('LspCxxHlSymTypeParameter', s:cdBlueGreen, {}, 'none', {})
 call <sid>hi('LspCxxHlSymConcept', s:cdBlueGreen, {}, 'italic', {})
 call <sid>hi('LspCxxHlSymNamespace', s:cdSilver, {}, 'none', {})
+hi FloatBorder guifg=#777777
 
 " Coc Explorer:
 call <sid>hi('CocHighlightText', {}, s:cdSelection, 'none', {})
