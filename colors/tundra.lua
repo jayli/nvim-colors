@@ -17,7 +17,8 @@ require('nvim-tundra').load()
 
 vim.cmd([[
     hi! Pmenu guifg=#d4d4d4
-    hi! PmenuThumb guibg=#394e60
+    " hi! PmenuThumb guibg=#394e60
+    hi! PmenuSel guibg=#333333
     hi! PmenuKind guifg=#aaaaaa
     hi! PmenuExtra guifg=#777777
     hi! FloatBorder guifg=#666666
