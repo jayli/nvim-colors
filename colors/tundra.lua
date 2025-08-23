@@ -14,3 +14,11 @@ vim.g.colors_name = 'tundra'
 vim.opt.termguicolors = true
 
 require('nvim-tundra').load()
+
+vim.cmd([[
+    hi! Pmenu guifg=#d4d4d4
+    hi! PmenuThumb guibg=#394e60
+    hi! PmenuKind guifg=#aaaaaa
+    hi! PmenuExtra guifg=#777777
+    hi! FloatBorder guifg=#666666
+  ]])
