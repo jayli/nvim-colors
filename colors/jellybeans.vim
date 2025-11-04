@@ -453,7 +453,7 @@ call s:X("TabLineSel","000000","f0f0f0","italic,bold",s:termBlack,"White")
 
 " Auto-completion
 call s:X("Pmenu","a6a6a7","2c2c2d","","White",s:termBlack)
-call s:X("EasyFuzzyMatch","ffb240","none","bold","orange",s:termBlack)
+call s:X("EasyFuzzyMatch","87ccf9","none","bold","orange",s:termBlack)
 call s:X("PmenuSel","f7f8f8","424242","",s:termBlack,"White")
 
 call s:X("Visual","","404040","","",s:termBlack)
@@ -473,6 +473,7 @@ call s:X("Folded","a0a8b0","384048","italic",s:termBlack,"")
 call s:X("FoldColumn","535D66","1f1f1f","","",s:termBlack)
 call s:X("SignColumn","777777","101010","","",s:termBlack)
 call s:X("ColorColumn","","000000","","",s:termBlack)
+call s:X("FloatBorder","7a7a7a","none","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
 
