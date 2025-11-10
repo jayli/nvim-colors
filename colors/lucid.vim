@@ -103,7 +103,7 @@ let colorgroup['ModeMsg']      = {"GUIFG": _rock_dark, "GUIBG":  _turquoise}
 let colorgroup['Pmenu']        = {"GUIFG": "#bbbbbb",  "GUIBG":  _rock_medium}
 let colorgroup['PmenuSel']     = {"GUIFG": "white",    "GUIBG":  "#2f2c34"}
 let colorgroup['PmenuSbar']    = {                     "GUIBG":  _rock_dark}
-let colorgroup['FloatBorder']  = {"GUIFG": "#777777",  "GUIBG":  "#1e1e1e"}
+let colorgroup['FloatBorder']  = {"GUIFG": "#444444",  "GUIBG":  "#1e1e1e"}
 " FloatBorder    xxx guifg=#777777 guibg=#1e1e1e
 
 let colorgroup['Search']       = {                     "GUIBG":  _gray_dark, "GUI": "underline"}
