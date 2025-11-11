@@ -108,7 +108,7 @@ let colorgroup['FloatBorder']  = {"GUIFG": "#444444",  "GUIBG":  "#1e1e1e"}
 
 let colorgroup['Search']       = {                     "GUIBG":  _gray_dark, "GUI": "underline"}
 let colorgroup['SignColumn']   = {                     "GUIBG":  _rock_dark}
-let colorgroup['StatusLine']   = {"GUIFG": _gray,      "GUIBG":  _rock}
+let colorgroup['StatusLine']   = {"GUIFG": _gray,      "GUIBG":  "#1e1924"}
 let colorgroup['StatusLineNC'] = {"GUIFG": _gray_dark, "GUIBG":  _rock}
 let colorgroup['Title']        = {"GUIFG": _pink,      "GUI": "bold"}
 let colorgroup['Todo']         = {                     "GUIBG":  _gray_dark}
