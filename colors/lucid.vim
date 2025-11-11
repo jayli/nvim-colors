@@ -111,9 +111,9 @@ let colorgroup['SignColumn']   = {                     "GUIBG":  _rock_dark}
 let colorgroup['StatusLine']   = {"GUIFG": _gray,      "GUIBG":  _rock}
 let colorgroup['StatusLineNC'] = {"GUIFG": _gray_dark, "GUIBG":  _rock}
 let colorgroup['Title']        = {"GUIFG": _pink,      "GUI": "bold"}
-let colorgroup['Todo']         = {"GUIFG": _rock_dark, "GUIBG":  _powder}
+let colorgroup['Todo']         = {                     "GUIBG":  _gray_dark}
 let colorgroup['VertSplit']    = {"GUIFG": _rock,      "GUIBG":  _rock}
-let colorgroup['Visual']       = {"GUIFG": _rock_dark, "GUIBG":  _sap}
+let colorgroup['Visual']       = {                     "GUIBG":  _rock_medium}
 if &background == "light"
   let colorgroup['Visual']       = {"GUIFG": _cloud,     "GUIBG":  _sap}
 endif
